@@ -1,0 +1,65 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-04T16:51:46.658Z",
+        "line": 3,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "login-feature;user-should-be-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is already on the login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User enters \"username\" and \"password\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User should be on Account Summary page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
